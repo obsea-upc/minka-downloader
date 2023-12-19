@@ -1,20 +1,27 @@
 # MINKA Downloader #
 
-This repository contains a set of `python3` scripts that download ALL pictures from (MINKA)[https://minka-sdg.org] that contain are annotated with a specific taxa. 
+This repository contains a set of `python3` scripts that download pictures from [MINKA](https://minka-sdg.org) filtered by taxa. 
 
 ## How to use ##
-1. Write a .txt file the taxa names splitted in lines that you are interested in, `species.txt`
-2. Install dependencies:
-`$ pip3 install -r requirements`
-3. Run the script!
-`$ python3 downloader.py species.txt my-folder`
+1. Write a .txt file with the taxa names, like in the example `species.txt`
+2. Install dependencies: 
+```bash
+pip3 install -r requirements.txt
+```
+3. Run the script:  
+```bash
+python3 downloader.py species.txt my-folder
+```
 
-That's it!
+
+   
+That's all!
 
 
 ## Contact info ##
-* **author**: Enoc Martínez  
+* **author**: Enoc Martínez
 * **version**: 0.1  
 * **organization**: Universitat Politècnica de Catalunya (UPC)  
-* **contact**: enoc.martinez@upc.edu  
+* **contact**: enoc.martinez@upc.edu
+* **license**: Apache 2.0
 
